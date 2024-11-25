@@ -1,0 +1,446 @@
+header {
+  width: 1440px;
+  height: 100px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding-left: 121px;
+  padding-right: 119px;
+}
+header .deco1 {
+  position: absolute;
+  width: 730px;
+  height: 747px;
+  left: 839px;
+  top: -112px;
+  z-index: -1;
+}
+header .logo {
+  width: 121px;
+}
+header .menu ul {
+  display: flex;
+  gap: 33px;
+}
+header .menu ul li {
+  list-style-type: none;
+}
+header .menu ul li .header-nav {
+  font-family: "Barlow", sans-serif;
+  font-size: 14px;
+  font-weight: 400px;
+}
+header .menu ul li a {
+  text-decoration: none;
+  color: #ffffff;
+}
+header .menu ul li a:hover {
+  background-color: gold;
+  padding: 5px 10px;
+}
+
+.first-article-container {
+  width: 546px;
+  height: 443px;
+  position: relative;
+  margin-left: 77px;
+  margin-top: 85px;
+}
+.first-article-container .deco3-a {
+  position: absolute;
+  top: 0;
+  left: 0;
+}
+.first-article-container .first-article {
+  position: absolute;
+  top: 48px;
+  left: 43px;
+  width: 503px;
+}
+.first-article-container .first-article h1 {
+  font-family: "Barlow", sans-serif;
+  font-size: 64px;
+  color: #ffffff;
+  font-weight: 300;
+  line-height: 76.8px;
+  width: 100%;
+  letter-spacing: 2.88px;
+  text-transform: uppercase;
+  white-space: nowrap;
+  margin-bottom: 21px;
+}
+.first-article-container .first-article h2 {
+  font-family: "Barlow", sans-serif;
+  font-size: 32px;
+  color: #e8ab36;
+  font-weight: 400;
+  line-height: 38px;
+  letter-spacing: 0.045em;
+  text-transform: uppercase;
+  margin-bottom: 21px;
+}
+.first-article-container .first-article .first-p {
+  font-family: "Barlow", sans-serif;
+  font-size: 16px;
+  color: #efefef;
+  font-weight: 300;
+  line-height: 32px;
+  letter-spacing: 0.045em;
+  margin-bottom: 21px;
+  width: 406px;
+}
+.first-article-container .first-article .button-container {
+  width: 328px;
+  display: flex;
+  gap: 24px;
+}
+.first-article-container .first-article .button-container .btn {
+  width: 152px;
+  align-items: center;
+  padding: 13px 30px;
+  border-radius: 75px;
+  box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+}
+.first-article-container .first-article .button-container .get-started {
+  background-color: #e6606c;
+  font-family: "Barlow", sans-serif;
+  font-size: 14px;
+  color: #ffffff;
+  font-weight: 500;
+  line-height: 16.8px;
+}
+.first-article-container .first-article .button-container .know-more {
+  background-color: #efefef;
+  font-family: "Barlow", sans-serif;
+  font-size: 14px;
+  color: #000000;
+  font-weight: 500;
+  line-height: 16.8px;
+}
+.first-article-container .first-article .button-container a {
+  letter-spacing: 0.63px;
+  text-decoration: none;
+  text-wrap: nowrap;
+}
+.first-article-container .first-article .button-container a:hover {
+  color: rgba(2, 16, 169, 0.8392156863);
+}
+.first-article-container .deco2 {
+  position: absolute;
+  left: 328px;
+  bottom: 0px;
+}
+
+.second-article-container {
+  display: flex;
+  gap: 145px;
+  width: 1185px;
+  flex-wrap: nowrap;
+  margin: 175px 163px 57px 120px;
+  align-items: center;
+}
+.second-article-container .second-article {
+  position: relative;
+  align-items: start;
+}
+.second-article-container .second-article span {
+  font-family: "Barlow", sans-serif;
+  font-size: 16px;
+  color: rgba(255, 255, 255, 0.5);
+  font-weight: 400;
+  line-height: 32px;
+  letter-spacing: 3px;
+}
+.second-article-container .second-article img {
+  position: absolute;
+  z-index: -1;
+  right: 28px;
+  top: 69px;
+}
+.second-article-container .second-article h2 {
+  font-family: "Barlow Condensed", sans-serif;
+  font-size: 56px;
+  color: #ffffff;
+  font-weight: 300;
+  line-height: 64px;
+  width: 321px;
+  text-wrap: nowrap;
+  margin-top: 16px;
+  text-transform: uppercase;
+}
+.second-article-container .second-article h3 {
+  font-family: "Barlow", sans-serif;
+  font-size: 20px;
+  color: #ffffff;
+  font-weight: 400;
+  line-height: 32px;
+  margin-top: 30px;
+}
+.second-article-container .second-article .second-article-p {
+  font-family: "Barlow", sans-serif;
+  font-size: 16px;
+  color: rgba(255, 255, 255, 0.502972);
+  font-weight: 400;
+  line-height: 32px;
+  margin: 28px 0px;
+}
+.second-article-container .second-article .btn {
+  width: 152px;
+  align-items: center;
+  padding: 13px 30px;
+  border-radius: 75px;
+  box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+}
+.second-article-container .second-article .get-started {
+  background-color: #e6606c;
+  font-family: "Barlow", sans-serif;
+  font-size: 14px;
+  color: #ffffff;
+  font-weight: 500;
+  line-height: 16.8px;
+}
+.second-article-container .second-article a {
+  letter-spacing: 0.63px;
+  text-decoration: none;
+  text-wrap: nowrap;
+}
+.second-article-container .second-article a:hover {
+  color: rgba(2, 16, 169, 0.8392156863);
+}
+
+.featured-posts {
+  width: 1170px;
+  margin-left: 115px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+.featured-posts .short-introduction {
+  width: 570px;
+  position: relative;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  text-align: center;
+}
+.featured-posts .short-introduction span {
+  font-family: "Barlow", sans-serif;
+  font-size: 16px;
+  color: rgba(255, 255, 255, 0.5);
+  font-weight: 400;
+  line-height: 32px;
+  letter-spacing: 3px;
+  margin-top: 16px;
+}
+.featured-posts .short-introduction img {
+  position: absolute;
+  z-index: -1;
+  top: 0px;
+  left: 7px;
+}
+.featured-posts .short-introduction .intro-header {
+  font-family: "Barlow Condensed", sans-serif;
+  font-size: 56px;
+  color: #ffffff;
+  font-weight: 300;
+  line-height: 64px;
+  width: 405px;
+  text-wrap: nowrap;
+}
+.featured-posts .short-introduction .intro-p {
+  margin-top: 32px;
+  font-family: "Barlow", sans-serif;
+  font-size: 16px;
+  color: rgba(255, 255, 255, 0.502972);
+  font-weight: 400;
+  line-height: 32px;
+}
+.featured-posts .featured-posts-container {
+  display: flex;
+  flex-wrap: nowrap;
+  margin-top: 70px;
+  gap: 30px;
+  width: 100%;
+}
+.featured-posts .featured-posts-container .post {
+  width: 370px;
+  background: linear-gradient(180deg, #4d4f95 0%, #2b2d66 100%);
+  border: 2px solid rgba(255, 255, 255, 0.0782099);
+  box-shadow: 0px 24px 48px rgba(0, 1, 44, 0.157184);
+  border-radius: 12px;
+  display: inline-block;
+}
+.featured-posts .featured-posts-container .post .post-img {
+  width: 100%;
+  height: auto;
+  overflow: hidden;
+}
+.featured-posts .featured-posts-container .post .post-title {
+  width: auto;
+  height: 192px;
+  padding: 38px 32px;
+  display: flex;
+  flex-direction: column;
+}
+.featured-posts .featured-posts-container .post .post-title .title {
+  font-family: "Barlow Condensed", sans-serif;
+  font-size: 24px;
+  color: rgba(255, 255, 255, 0.8);
+  font-weight: 300;
+  line-height: 32px;
+  width: 306px;
+}
+.featured-posts .featured-posts-container .post .post-title .date {
+  width: auto;
+  height: auto;
+  font-family: "Barlow", sans-serif;
+  font-size: 16px;
+  color: rgba(255, 255, 255, 0.5);
+  font-weight: 400;
+  line-height: 32px;
+  letter-spacing: 3px;
+  margin-top: 20px;
+  letter-spacing: 0px;
+}
+
+footer {
+  width: 998px;
+  margin: 113px 221px 76px;
+}
+footer .navbar {
+  display: flex;
+}
+footer .navbar .logo {
+  width: 121px;
+  height: 32px;
+}
+footer .navbar .menu-wrapper {
+  margin-left: 180px;
+  display: flex;
+  flex-direction: column;
+}
+footer .navbar .menu-wrapper .nav-header {
+  font-family: "Barlow", sans-serif;
+  font-size: 16px;
+  color: rgba(255, 255, 255, 0.5);
+  font-weight: 400;
+  line-height: 32px;
+  letter-spacing: 3px;
+  margin-bottom: 16px;
+}
+footer .navbar .menu-wrapper li {
+  list-style-type: none;
+  font-family: "Barlow", sans-serif;
+  font-size: 16px;
+  color: #ffffff;
+  font-weight: 400;
+  line-height: 32px;
+  letter-spacing: 1px;
+}
+footer .navbar .menu-wrapper li a {
+  text-decoration: none;
+  color: rgba(255, 255, 255, 0.9);
+}
+footer .navbar .menu-wrapper li a:hover {
+  background-color: rgb(61, 34, 152);
+  padding: 5px 10px;
+}
+footer .navbar .nav-wrapper {
+  margin-left: 189px;
+  display: flex;
+  flex-direction: column;
+}
+footer .navbar .nav-wrapper .nav-header {
+  font-family: "Barlow", sans-serif;
+  font-size: 16px;
+  color: rgba(255, 255, 255, 0.5);
+  font-weight: 400;
+  line-height: 32px;
+  letter-spacing: 3px;
+  margin-bottom: 16px;
+}
+footer .navbar .nav-wrapper li {
+  text-wrap: nowrap;
+  list-style-type: none;
+  font-family: "Barlow", sans-serif;
+  font-size: 16px;
+  color: #ffffff;
+  font-weight: 400;
+  line-height: 32px;
+  letter-spacing: 1px;
+}
+footer .navbar .nav-wrapper li a {
+  text-decoration: none;
+  color: rgba(255, 255, 255, 0.9);
+}
+footer .navbar .nav-wrapper li a:hover {
+  background-color: rgb(61, 34, 152);
+  padding: 5px 10px;
+}
+footer .social-media-icons {
+  margin-left: 180px;
+  display: flex;
+  flex-direction: row;
+  gap: 8px;
+}
+footer .social-media-icons a {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 48px;
+  height: 48px;
+  border-radius: 50%;
+  background-color: #6357f6;
+}
+footer .social-media-icons a:hover {
+  background-color: #938dcd;
+}
+footer .footer-down-bar {
+  margin-top: 30px;
+  border-top: 1px solid rgba(255, 255, 255, 0.121);
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  padding-top: 41px;
+}
+footer .footer-down-bar p {
+  font-family: "Barlow", sans-serif;
+  font-size: 16px;
+  color: rgba(255, 255, 255, 0.5);
+  font-weight: 400;
+  line-height: 32px;
+  letter-spacing: 1px;
+}
+footer .footer-down-bar .footer-right {
+  display: flex;
+  justify-content: space-between;
+  flex-direction: row;
+  gap: 48px;
+}
+footer .footer-down-bar .footer-right a {
+  text-decoration: none;
+  font-family: "Barlow", sans-serif;
+  font-size: 16px;
+  color: rgba(255, 255, 255, 0.9);
+  font-weight: 400;
+  line-height: 32px;
+  letter-spacing: 1px;
+}
+footer .footer-down-bar .footer-right a:hover {
+  background-color: rgb(50, 69, 118);
+  padding: 5px 10px;
+}
+
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+body {
+  background: linear-gradient(236.56deg, #2c2d65 0.35%, #201f22 100%);
+  overflow-x: hidden;
+  overflow-y: auto;
+}/*# sourceMappingURL=style.css.map */

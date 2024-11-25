@@ -1,0 +1,47 @@
+header {
+	width: 1440px;
+	height: 100px;
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+	padding-left: 121px;
+	padding-right: 119px;
+
+	.deco1 {
+		position: absolute;
+		width: 730px;
+		height: 747px;
+		left: 839px;
+		top: -112px;
+		z-index: -1;
+	}
+
+	.logo {
+		width: 121px;
+	}
+
+	.menu ul {
+		display: flex;
+		gap: 33px;
+
+		li {
+			list-style-type: none;
+
+			.header-nav {
+				font-family: "Barlow", sans-serif;
+				font-size: 14px;
+				font-weight: 400px;
+			}
+
+			a {
+				text-decoration: none;
+				color: #ffffff;
+			}
+
+			a:hover {
+				background-color: gold;
+				padding: 5px 10px;
+			}
+		}
+	}
+}

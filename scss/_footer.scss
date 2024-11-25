@@ -1,0 +1,119 @@
+@use "./main" as main;
+
+footer {
+	width: 998px;
+	margin: 113px 221px 76px;
+
+	.navbar {
+		display: flex;
+		// flex-direction: row;
+
+		.logo {
+			width: 121px;
+			height: 32px;
+		}
+
+		.menu-wrapper {
+			margin-left: 180px;
+			display: flex;
+			flex-direction: column;
+
+			.nav-header {
+				@include main.label();
+				margin-bottom: 16px;
+			}
+
+			li {
+				list-style-type: none;
+				@include main.label($color: #ffffff, $letter-spacing: 1px);
+
+				a {
+					text-decoration: none;
+					color: rgba(255, 255, 255, 0.9);
+				}
+				a:hover {
+					background-color: rgb(61, 34, 152);
+					padding: 5px 10px;
+				}
+			}
+		}
+
+		.nav-wrapper {
+			margin-left: 189px;
+			display: flex;
+			flex-direction: column;
+
+			.nav-header {
+				@include main.label();
+				margin-bottom: 16px;
+			}
+
+			li {
+				text-wrap: nowrap;
+				list-style-type: none;
+				@include main.label($color: #ffffff, $letter-spacing: 1px);
+
+				a {
+					text-decoration: none;
+					color: rgba(255, 255, 255, 0.9);
+				}
+				a:hover {
+					background-color: rgb(61, 34, 152);
+					padding: 5px 10px;
+				}
+			}
+		}
+	}
+
+	.social-media-icons {
+		margin-left: 180px;
+		display: flex;
+		flex-direction: row;
+		gap: 8px;
+		a {
+			display: flex;
+			justify-content: center;
+			align-items: center;
+			width: 48px;
+			height: 48px;
+			border-radius: 50%;
+			background-color: #6357f6;
+		}
+
+		a:hover {
+			background-color: #938dcd;
+		}
+	}
+
+	.footer-down-bar {
+		margin-top: 30px;
+		border-top: 1px solid rgba(255, 255, 255, 0.121);
+		display: flex;
+		flex-direction: row;
+		justify-content: space-between;
+		padding-top: 41px;
+
+		p {
+			@include main.label($letter-spacing: 1px);
+		}
+
+		.footer-right {
+			display: flex;
+			justify-content: space-between;
+			flex-direction: row;
+			gap: 48px;
+			a {
+				text-decoration: none;
+				@include main.label(
+					$color: rgba(255, 255, 255, 0.9),
+					$letter-spacing: 1px
+				);
+			}
+
+			a:hover {
+				background-color: rgb(50, 69, 118);
+				padding: 5px 10px;
+			}
+		}
+	}
+}
